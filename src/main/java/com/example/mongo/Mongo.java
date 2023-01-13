@@ -17,7 +17,7 @@ public class Mongo {
             if (doc != null) {
                 System.out.println(doc.toJson());
             } else {
-                System.out.println("No matching documents found.");
+                System.out.println("No matching documents found");
             }
         }
     }
